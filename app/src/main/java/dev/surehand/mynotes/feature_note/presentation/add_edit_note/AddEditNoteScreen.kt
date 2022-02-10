@@ -19,9 +19,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import dev.surehand.mynotes.R
 import dev.surehand.mynotes.core.util.TestTags
 import dev.surehand.mynotes.feature_note.domain.model.Note
 import dev.surehand.mynotes.feature_note.presentation.add_edit_note.components.AddEditNoteEvent
@@ -70,7 +72,7 @@ fun AddEditNoteScreen(
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
-                Icon(imageVector = Icons.Default.Save, contentDescription = "Save")
+                Icon(imageVector = Icons.Default.Save, contentDescription = stringResource(id = R.string.save_note))
             }
         },
         scaffoldState = scaffoldState

@@ -3,10 +3,12 @@ package dev.surehand.mynotes.feature_note.presentation.add_edit_note
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dev.surehand.mynotes.R
 import dev.surehand.mynotes.feature_note.domain.model.InvalidNoteException
 import dev.surehand.mynotes.feature_note.domain.model.Note
 import dev.surehand.mynotes.feature_note.domain.use_case.NoteUseCases
@@ -108,7 +110,7 @@ class AddEditNoteViewModel @Inject constructor(
                     } catch(e: InvalidNoteException) {
                         _eventFlow.emit(
                             UiEvent.ShowSnackbar(
-                                message = e.message ?: "Couldn't save note"
+                                message = e.message ?: "Couldn't save note" //stringResource(id = R.string.saving_error)
                             )
                         )
                     }

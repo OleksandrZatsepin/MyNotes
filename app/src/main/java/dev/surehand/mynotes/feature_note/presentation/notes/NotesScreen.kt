@@ -14,9 +14,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import dev.surehand.mynotes.R
 import dev.surehand.mynotes.core.util.TestTags
 import dev.surehand.mynotes.feature_note.presentation.notes.components.NoteItem
 import dev.surehand.mynotes.feature_note.presentation.notes.components.OrderSection
@@ -41,7 +43,7 @@ fun NotesScreen(
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
-                Icon(imageVector = Icons.Default.Add, contentDescription = "Add")
+                Icon(imageVector = Icons.Default.Add, contentDescription = stringResource(id = R.string.add_note))
             }
         },
         scaffoldState = scaffoldState
@@ -57,7 +59,7 @@ fun NotesScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "Your note",
+                    text = stringResource(id = R.string.your_note),
                     style = MaterialTheme.typography.h4
                 )
                 IconButton(
@@ -67,7 +69,7 @@ fun NotesScreen(
                 ) {
                     Icon(
                         imageVector = Icons.Default.Sort,
-                        contentDescription = "Sort"
+                        contentDescription = stringResource(id = R.string.sort_notes)
                     )
                 }
             }

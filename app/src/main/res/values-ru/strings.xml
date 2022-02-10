@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="your_note">Ваша заметка</string>
+    <string name="enter_title">Введите название...</string>
+    <string name="enter_content">Введите текст</string>
+    <string name="saving_error">Не удалось сохранить заметку</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="sort_notes">Сортировать</string>
+    <string name="add_note">Добавить</string>
+    <string name="save_note">Сохранить</string>
+    <string name="title">Заголовок</string>
+    <string name="color">Цвет</string>
+    <string name="date">Дата</string>
+    <string name="ascending">По возрастанию</string>
+    <string name="descending">По убыванию</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="your_note">Ваша нотатка</string>
+    <string name="enter_title">Введіть назву...</string>
+    <string name="enter_content">Введіть вміст</string>
+    <string name="saving_error">Не вдалося зберегти нотатку</string>
+    <string name="delete_note">Видалити нотатку</string>
+    <string name="sort_notes">Сортувати</string>
+    <string name="add_note">Додати</string>
+    <string name="save_note">Зберегти</string>
+    <string name="title">Назва</string>
+    <string name="color">Колір</string>
+    <string name="date">Дата</string>
+    <string name="ascending">За зростанням</string>
+    <string name="descending">По спаданню</string>
+</resources>
