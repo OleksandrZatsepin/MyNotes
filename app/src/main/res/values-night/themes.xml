@@ -7,16 +7,5 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/dark_gray</item>
         <!-- Customize your theme here. -->
-
     </style>
-
-    <style name="Theme.MyNotes.NoActionBar">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.MyNotes.AppBarOverlay" parent="android:ThemeOverlay.Material.Dark.ActionBar" />
-
-    <style name="Theme.MyNotes.PopupOverlay" parent="android:ThemeOverlay.Material.Light" />
-
 </resources>
