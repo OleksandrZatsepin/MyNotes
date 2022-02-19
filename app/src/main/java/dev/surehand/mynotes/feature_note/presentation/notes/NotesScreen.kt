@@ -25,7 +25,7 @@ import dev.surehand.mynotes.feature_note.presentation.notes.components.OrderSect
 import dev.surehand.mynotes.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
-@ExperimentalAnimationApi
+
 @Composable
 fun NotesScreen(
     navController: NavController,

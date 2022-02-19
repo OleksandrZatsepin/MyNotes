@@ -20,7 +20,7 @@ import dev.surehand.mynotes.feature_note.presentation.notes.NotesScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    @ExperimentalAnimationApi
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
